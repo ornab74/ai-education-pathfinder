@@ -145,3 +145,46 @@ The Destiny Sovereign
 This is your destiny. It is already in motion.
 
 *(In a full run, a stunning PDF would generate with your palette grid, oracle whispers, and contract—downloadable here. For a real sync with more X data or custom answers, share deeper posts or run locally! 🌌)*
+
+```
+
+%% =========================
+%%  USER & INPUT
+%% =========================
+A[User Inputs<br/>14 Soul Questions] --> B[generate_quantum_soul_colors()]
+
+B --> C[Quantum Circuit<br/>(25-qubit RY/RZ/PhaseShift + entanglement)]
+C --> D[25 Quantum Color Hex Codes]
+
+%% =========================
+%%  ORACLE PIPELINE
+%% =========================
+D --> E[For Each of 9 Agents<br/>Build AGENT_TEMPLATE prompt]
+
+E --> F[ask_oracle()<br/>HTTP → xAI Grok API]
+F --> G[9 Oracle Insights]
+
+%% =========================
+%%  DESTINY CONTRACT
+%% =========================
+G --> H[Final Destiny Sovereign Prompt<br/>Build master prompt]
+H --> I[ask_oracle() → Grok API]
+I --> J[Final 2025–2050 Destiny Arc]
+
+%% =========================
+%%  PDF CREATION
+%% =========================
+D --> K[create_master_pdf()]
+G --> K
+J --> K
+
+K --> L[Final PDF Output<br/>'<name>_Quantum_College_Career_Arc_2025-2050.pdf']
+
+%% =========================
+%%  TERMINAL UX
+%% =========================
+A --> M[rich console prompts]
+D --> M
+G --> M
+J --> M
+```
