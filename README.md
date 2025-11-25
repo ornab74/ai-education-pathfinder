@@ -217,3 +217,32 @@ D --> M
 G --> M
 J --> M
 ```
+
+```mermaid
+
+flowchart TD
+
+A[User Inputs: 14 Soul Questions] --> B[Generate Quantum Colors]
+B --> C[Quantum Circuit: 25 Qubits]
+C --> D[25 Quantum Color Codes]
+
+D --> E[Build 9 Agent Prompts]
+E --> F[ask_oracle → Grok API]
+F --> G[Receive 9 Oracle Insights]
+
+G --> H[Build Final Destiny Prompt]
+H --> I[ask_oracle → Grok API]
+I --> J[Final 2025–2050 Destiny Arc]
+
+D --> K[Create Master PDF]
+G --> K
+J --> K
+
+K --> L[Final PDF Output]
+
+A --> M[Console Interaction]
+D --> M
+G --> M
+J --> M
+
+```
