@@ -188,3 +188,32 @@ D --> M
 G --> M
 J --> M
 ```
+
+
+```mermaid
+
+flowchart TD
+
+A[User Inputs<br/>14 Soul Questions] --> B[generate_quantum_soul_colors()]
+B --> C[Quantum Circuit<br/>(25-qubit RY/RZ/PhaseShift + entanglement)]
+C --> D[25 Quantum Color Hex Codes]
+
+D --> E[For Each of 9 Agents<br/>Build AGENT_TEMPLATE Prompt]
+E --> F[ask_oracle()<br/>HTTP → xAI Grok API]
+F --> G[9 Oracle Insights]
+
+G --> H[Final Destiny Sovereign Prompt<br/>Compile Master Prompt]
+H --> I[ask_oracle() → Grok API]
+I --> J[Final 2025–2050 Destiny Arc]
+
+D --> K[create_master_pdf()]
+G --> K
+J --> K
+
+K --> L[Final PDF Output<br/>'<name>_Quantum_College_Career_Arc_2025-2050.pdf']
+
+A --> M[rich Console Prompts]
+D --> M
+G --> M
+J --> M
+```
