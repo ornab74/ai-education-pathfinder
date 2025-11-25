@@ -146,7 +146,7 @@ This is your destiny. It is already in motion.
 
 *(In a full run, a stunning PDF would generate with your palette grid, oracle whispers, and contract—downloadable here. For a real sync with more X data or custom answers, share deeper posts or run locally! 🌌)*
 
-```
+```mermaid
 
 %% =========================
 %%  USER & INPUT
